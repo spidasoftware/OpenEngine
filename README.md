@@ -5,10 +5,10 @@ The SPIDACalc Pole Analysis Engine
 
 ### Projects
 
-- calc - The main Calc GUI
-- min - Integration components for pushing your results to SPIDAMin
 - calculations - The analysis engine
 - model - The pole and engineering attachment library used
+- gui - GUI components for visualized results
+- min - Integration components for pushing your results to SPIDAMin
 - project - The project model used by calc
 
 ### Command Line Tools
