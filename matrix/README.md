@@ -1,6 +1,11 @@
 core.matrix
 ===========
 
+The heart of all SPIDA products
+-------------------------------
+
+_This is the place to start if you want to understand how and why all the analysis works in SPIDACalc._
+
 core.matrix provides array programming as a language extension for Clojure, with a focus on numerical computing.
 
 The central objective of `core.matrix` is to make matrix and array programming
