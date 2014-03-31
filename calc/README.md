@@ -1,4 +1,4 @@
-SPIDAcalc <a href="https://circleci.com/gh/spidasoftware/calc"><img src="https://circleci.com/gh/spidasoftware/calc.png?circle-token=53bc45066f0ce74c90f09162426de9d401f582de" /></a>
+SPIDAcalc 
 ========
 
 The calc repo holds all (or at least most) of the client side java code that does analysis of poles.
@@ -54,9 +54,9 @@ More examples can be found [here](http://www.gradle.org/docs/current/javadoc/org
 
 #### Notes
 
-1. There is also a [test class](commons/src/main/groovy/com/spidasoftware/test/ReportFailure.groovy) you can extend if you want a filtered stacktrace on spidasoftware.com
-1. There is a testing rule that you can add for [performance testing](commons/src/main/groovy/com/spidasoftware/test/PerformanceRunRule.groovy). It will skip that test unless you are specifically running a performance run by setting the env variable `export PERFORMANCE=true`
-1. There is a circle ci rule that you can add for [ci testing](commons/src/main/groovy/com/spidasoftware/test/SkipCircleCIRule.groovy). It will skip that test when on the Circle CI servers.
+1. There is also a [test class]() you can extend if you want a filtered stacktrace on spidasoftware.com
+1. There is a testing rule that you can add for [performance testing](). It will skip that test unless you are specifically running a performance run by setting the env variable `export PERFORMANCE=true`
+1. There is a circle ci rule that you can add for [ci testing](). It will skip that test when on the Circle CI servers.
 
 Create Installer
 ----------------
@@ -74,18 +74,18 @@ Parts
 
 ### [The Engine](engine)
 
-<div style="float: left"><img src="calc/src/test/resources/images/engine.png" /></div>
+<div style="float: left"><img src="images/engine.png" /></div>
 
 This is where all the analysis happens.  It also has the model for all the structural components and engineering information.
 
 ### [The Client Editor](editor)
 
-<div style="float: left"><img src="calc/src/test/resources/images/editor.png" /></div>
+<div style="float: left"><img src="images/editor.png" /></div>
 
 Where you can edit the engineering information
 
 ### [The GUI](calc)
 
-<div style="float: left"><img src="calc/src/test/resources/images/gui.png" /></div>
+<div style="float: left"><img src="images/gui.png" /></div>
 
-The SPIDACalc GUI, were you can build a pole and analyze it.
+
